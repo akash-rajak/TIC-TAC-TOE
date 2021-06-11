@@ -6,16 +6,16 @@
 ****
 
 <p align="center">
-  <img src="images/1.png" /><br>
-  <img src="images/2.png" /><br>
-  <img src="images/3.png" /><br>
-  <img src="images/4.png" /><br>
-  <img src="images/5.png" /><br>
-  <img src="images/6.png" /><br>
-  <img src="images/7.png" /><br>
-  <img src="images/8.png" /><br>
-  <img src="images/9.png" /><br>
-  <img src="images/10.png" /><br>
+  <img src="Images/1.png" /><br>
+  <img src="Images/2.png" /><br>
+  <img src="Images/3.png" /><br>
+  <img src="Images/4.png" /><br>
+  <img src="Images/5.png" /><br>
+  <img src="Images/6.png" /><br>
+  <img src="Images/7.png" /><br>
+  <img src="Images/8.png" /><br>
+  <img src="Images/9.png" /><br>
+  <img src="Images/10.png" /><br>
 </p>
 
 ****
