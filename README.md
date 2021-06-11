@@ -11,7 +11,7 @@
   <img src="Images/3.png" /><br>
   <img src="Images/4.png" /><br>
   <img src="Images/5.png" /><br>
-  <img src="Images/6.png" /><br>
+  <img src="Images/6.png" /><br><br><br>
   <img src="Images/7.png" /><br>
   <img src="Images/8.png" /><br>
   <img src="Images/9.png" /><br>
