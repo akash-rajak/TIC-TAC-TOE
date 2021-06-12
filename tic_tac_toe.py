@@ -1,3 +1,47 @@
+
+'''
+
+In this code, I haven't used any packages and didn't import anything.
+Just wrote code by creating function and main interface
+
+Description of each function :
+insertLetter(letter, pos) ---> This function takes two arguments letter (either 'O' or 'X' to be inserted)
+                                and pos (at which position the letter needs to be inserted)
+                            -> This function basically insert the letter at a given position on the board
+
+spaceIsFree(pos0) -----------> This fucntion takes only one argument i.e. pos
+                            -> It returns trur if position pos is empty on board, else return false
+
+printBoard(board) -----------> This function takes only one argument board (a list)
+                            -> It prints the board on the console (means how the board looks after particular move)
+
+isBoardFull(board) ----------> This function also takes only one argument board.
+                            -> It return true if none of the space is empty on board, else return true
+
+
+IsWinner(board,letter) ------> This function takes two arguments, first board and second letter
+                            -> It basically checks if for given letter, is there any 3 continous letter among any of the 8 possible case
+                                if there is then return s true, else return fasle
+
+playerMove() ----------------> this function basically ask player to input the position where he/she wants to add his/her letter.
+                            -> This function first checks all the possibel validation required for inerting letter at inputed pos,
+                                 like, is pos in board is empty, pos must be an integer [1,9]
+                            -> if validity is satisfied, it basically add players letter at inputed pos.
+
+computerMove() --------------> this function is defined for making the computer take its move
+                            -> In thsi funtion, first it checks all the position where computer can insert letter,
+                                 then consider all possible case and checks which is optimal
+                            -> It also checks, all the corners, center, and edge cases also
+
+
+selectRandom(li) ------------> This function takes one argument that is list, and returns any random value from the list
+                            -> we have used this function in the computermove() function
+
+Then at last main function is defined, which basically makes calls to each function and starts the game.
+
+'''
+
+
 # list board created to store which letter is assigned at particlar position,
 # we have taken size till 10, because in board 0 is not included in board
 board = [' ' for x in range(10)]
